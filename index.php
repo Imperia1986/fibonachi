@@ -17,7 +17,7 @@ function fibonachi($lenght) {
     return ['data' => $arr, 'summa' => $summa];
 }
 
-$arr = fibonachi(0);
+$arr = fibonachi(6);
 echo('сумма: '.$arr['summa']);
 ?>
 <table border="1" cellpadding="10" border="1" rules="all">
@@ -25,7 +25,7 @@ echo('сумма: '.$arr['summa']);
       <tr>
         <?foreach($arr2 as $val):?>
             <td><?=$val?></td>
-        <?endfroeach;?>
+        <?endforeach;?>
       </tr>
-  <?endfroeach;?>
+  <?endforeach;?>
 </table>
