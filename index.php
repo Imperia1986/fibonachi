@@ -1,3 +1,4 @@
+<?
 function fibonachi($lenght) {
     $arr = [];
     $summa = 0;
